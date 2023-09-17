@@ -5,10 +5,10 @@ using System.Threading.Tasks;
 
 namespace Venda.Models
 {
-    public abstract class Forcenedor
+    public abstract class Fornecedor
     {
-        public Forcenedor() { }
-        public Forcenedor(string empresa, int quantidadeAnoGarantia)
+        public Fornecedor() { }
+        public Fornecedor(string empresa, int quantidadeAnoGarantia)
         {
             Empresa = empresa;
             QuantidadeAnoGarantia = quantidadeAnoGarantia;
