@@ -11,11 +11,12 @@ Notebook notebook = new Notebook(
     memoriaRam: 8,
     placaDeVideo: "GTX 1650 4gb",
     preco: 6000,
-    sistemaOperacional: "Windows"
+    sistemaOperacional: "Windows",
+    quantidadeAnoGarantia: 2
 );
 
 Vendedor vendedor = new Vendedor(nome: "Ana Clara", idade: 21, telefone: 319800000, 0.10m);
-Fornecedor fornecedor = new Fornecedor(empresa: "Amazon", quantidadeAnoGarantia: 2);
+Fornecedor fornecedor = new Fornecedor(empresa: "Amazon", cnpj: "000.000.000-00");
 
 Cliente cliente = new Cliente(
     nome: "Samuel",

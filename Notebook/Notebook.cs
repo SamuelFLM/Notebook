@@ -5,7 +5,7 @@ namespace Nt.Models
     public class Notebook : INotebook
     {
         public Notebook() { }
-        public Notebook(string marca, string fabricante, string processador, int memoriaHd, int memoriaRam, string placaDeVideo, decimal preco, string sistemaOperacional)
+        public Notebook(string marca, string fabricante, string processador, int memoriaHd, int memoriaRam, string placaDeVideo, decimal preco, string sistemaOperacional, int quantidadeAnoGarantia)
         {
             Marca = marca;
             Fabricante = fabricante;
@@ -15,6 +15,7 @@ namespace Nt.Models
             PlacaDeVideo = placaDeVideo;
             Preco = preco;
             SistemaOperacional = sistemaOperacional;
+            QuantidadeAnoGarantia = quantidadeAnoGarantia;
         }
         public string Marca { get; set; }
         public string Fabricante { get; set; }
@@ -24,6 +25,7 @@ namespace Nt.Models
         public string PlacaDeVideo { get; set; }
         public decimal Preco { get; set; }
         public string SistemaOperacional { get; set; }
+        public int QuantidadeAnoGarantia { get; set; }
 
         public void Desligar()
         {

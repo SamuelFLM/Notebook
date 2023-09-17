@@ -1,5 +1,6 @@
 
 using C.Models;
+using Newtonsoft.Json;
 using Nt.Models;
 
 namespace Venda.Models
@@ -7,12 +8,15 @@ namespace Venda.Models
     public class Produto
     {
         public Produto() { }
-       
-        public List<Notebook> Notebooks = new List<Notebook>();
-        public List<Vendedor> Vendedores = new List<Vendedor>();
+
+        [JsonProperty("Cliente")]
         public List<Cliente> Clientes = new List<Cliente>();
+        [JsonProperty("Fornecedor")]
         public List<Fornecedor> Fornecedores = new List<Fornecedor>();
-        private DateTime DataVenda = DateTime.Now;
+        [JsonProperty("Produto")]
+        public List<Notebook> Notebooks = new List<Notebook>();
+        [JsonProperty("Vendedor")]
+        public List<Vendedor> Vendedores = new List<Vendedor>();
 
         public void FinalizarCompra()
         {

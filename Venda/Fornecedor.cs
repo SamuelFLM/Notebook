@@ -8,12 +8,13 @@ namespace Venda.Models
     public class Fornecedor
     {
         public Fornecedor() { }
-        public Fornecedor(string empresa, int quantidadeAnoGarantia)
+        public Fornecedor(string empresa, string cnpj)
         {
             Empresa = empresa;
-            QuantidadeAnoGarantia = quantidadeAnoGarantia;
+            CNPJ = cnpj;
         }
         public string Empresa { get; set; }
-        public int QuantidadeAnoGarantia { get; set; }
+        public string CNPJ { get; set; }
+        
     }
 }
