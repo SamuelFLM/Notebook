@@ -1,30 +1,30 @@
 <img src="Image/logo.png" alt="logo_samuelflm">
 
 
-# Abstraindo um celular no Csharp/.NET
+# Projeto de Venda de Notebook
 
-<p>
-Sou responsável por modelar um sistema que trabalha com celulares. Para isso, foi solicitado que faço uma abstração de um celular e disponibilize maneiras de diferentes marcas e modelos terem seu próprio comportamento, possibilitando um maior reuso de código e usando a orientação a objetos.
-</p>
-
-Criei um sistema em .NET, do tipo console, mapeando uma classe abstrata e classes específicas para dois tipos de celulares: Nokia e iPhone. De acordo com o diagrama abaixo:
-</p>
+Este projeto é uma abstração de um sistema de venda de notebooks, implementado em C#.
 
 <img src="Image/desafio.png" alt="logo_samuelflm">
 
-## Regras e validações
 
-<p>
-A classe Smartphone deve ser abstrata, não permitindo instanciar e servindo apenas como modelo.<br>
-A classe Nokia e Iphone devem ser classes filhas de Smartphone.<br>
-O método InstalarAplicativo deve ser sobrescrito na classe Nokia e iPhone, pois ambos possuem diferentes maneiras de instalar um aplicativo.
-</p>
+## Serialização com Newtonsoft.Json
 
-> Resultado Nokia
+O projeto utiliza a biblioteca `Newtonsoft.Json` para serializar os dados da venda do notebook. A serialização é um processo de transformar os dados do objeto em um formato que pode ser armazenado ou transmitido e, em seguida, reconstruído posteriormente.
 
-<img src="Image/result_nokia.png" alt="logo_samuelflm">
+Aqui está um exemplo de como a serialização é realizada neste projeto:
 
-> Resultado Iphone
+<img src="Image/json.png" alt="logo_samuelflm">
 
-<img src="Image/result_iphone.png" alt="logo_samuelflm">
+
+## Como usar
+
+Para usar este projeto, você pode clonar o repositório e abrir o projeto no Visual Studio. Certifique-se de ter a biblioteca Newtonsoft.Json instalada.
+
+## Contribuições
+
+Contribuições são bem-vindas! Por favor, leia as diretrizes de contribuição antes de enviar uma solicitação pull.
+
+
+
 
