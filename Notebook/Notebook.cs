@@ -2,11 +2,10 @@
 
 namespace Nt.Models
 {
-    public class Notebook : Sistema, INotebook
+    public class Notebook : INotebook
     {
         public Notebook() { }
-        public Notebook(string sistemaOperacional) : base(sistemaOperacional) { }
-        public Notebook(string marca, string fabricante, string processador, int memoriaHd, int memoriaRam, string placaDeVideo, decimal preco, string sistemaOperacional) : base(sistemaOperacional)
+        public Notebook(string marca, string fabricante, string processador, int memoriaHd, int memoriaRam, string placaDeVideo, decimal preco, string sistemaOperacional)
         {
             Marca = marca;
             Fabricante = fabricante;
@@ -15,6 +14,7 @@ namespace Nt.Models
             MemoriaRam = memoriaRam;
             PlacaDeVideo = placaDeVideo;
             Preco = preco;
+            SistemaOperacional = sistemaOperacional;
         }
         protected string Marca { get; set; }
         protected string Fabricante { get; set; }
@@ -23,6 +23,7 @@ namespace Nt.Models
         protected int MemoriaRam { get; set; }
         protected string PlacaDeVideo { get; set; }
         protected decimal Preco { get; set; }
+        protected string SistemaOperacional { get; set; }
 
         public void Desligar()
         {
