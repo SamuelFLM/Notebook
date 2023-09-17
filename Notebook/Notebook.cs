@@ -3,10 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Notebook.Models
+namespace Notebook
 {
     public abstract class Notebook : INotebook
     {
+        public Notebook(){}
+        public Notebook(string marca){}
         protected string Marca { get; set; }
         protected string Fabricante { get; set; }
         protected string Processador { get; set; }
