@@ -14,25 +14,24 @@ namespace Notebook
         protected string Processador { get; set; }
         protected int Memoria { get; set; }
         protected string PlacaDeVideo { get; set; }
-        protected string SistemaOperacional { get; set; }
-        protected int AnosGarantia { get; set; }
+        protected decimal Preco { get; set; }
 
         public void Desligar()
         {
-            throw new NotImplementedException();
+            Console.WriteLine("Desligando.......");
         }
 
         public void ExibirConfiguracao()
         {
-            throw new NotImplementedException();
+            Console.WriteLine($"\nMarca: {Marca}".ToUpper());
+            Console.WriteLine($"\nFabricante: {Fabricante}".ToUpper());
+            Console.WriteLine($"\nProcessador: {Processador}".ToUpper());
+            Console.WriteLine($"\nMemoria: {PlacaDeVideo}".ToUpper());
         }
 
         public void Ligar()
         {
-            throw new NotImplementedException();
+            Console.WriteLine("Ligando.......");
         }
-
-        public abstract void Manutencao();
-        public abstract string Instalar();
     }
 }

@@ -10,6 +10,5 @@ namespace Notebook
         void ExibirConfiguracao();
         void Ligar();
         void Desligar();
-        abstract void Manutencao();
     }
 }
