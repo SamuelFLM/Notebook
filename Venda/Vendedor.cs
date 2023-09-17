@@ -3,11 +3,11 @@ using P.Models;
 
 namespace Venda.Models
 {
-    public class Funcionario : Pessoa
+    public class Vendedor : Pessoa
     {
 
-        public Funcionario() { }
-        public Funcionario(string nome, int idade, int telefone, decimal comissao) : base(nome, idade, telefone)
+        public Vendedor() { }
+        public Vendedor(string nome, int idade, int telefone, decimal comissao) : base(nome, idade, telefone)
         {
             Comissao = comissao;
         }
