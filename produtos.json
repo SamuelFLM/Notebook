@@ -1,0 +1,43 @@
+{
+  "Notebooks": [
+    {
+      "Marca": "ASUS",
+      "Fabricante": "ASUS LTDA",
+      "Processador": "AMD RYZEN 5",
+      "MemoriaHD": 500,
+      "MemoriaRam": 8,
+      "PlacaDeVideo": "GTX 1650 4gb",
+      "Preco": 6000.0,
+      "SistemaOperacional": "Windows"
+    }
+  ],
+  "Vendedores": [
+    {
+      "Comissao": 0.10,
+      "Nome": "Ana Clara",
+      "Idade": 21,
+      "Telefone": 319800000,
+      "Rua": null,
+      "Numero": 0,
+      "Bairro": null
+    }
+  ],
+  "Clientes": [
+    {
+      "Saldo": 7000.0,
+      "FormaDePagamento": "PARCELADO",
+      "Nome": "Samuel",
+      "Idade": 21,
+      "Telefone": 319009980,
+      "Rua": "Dev Senior",
+      "Numero": 888,
+      "Bairro": "Depressao"
+    }
+  ],
+  "Fornecedores": [
+    {
+      "Empresa": "Amazon",
+      "QuantidadeAnoGarantia": 2
+    }
+  ]
+}

@@ -11,8 +11,8 @@ namespace C.Models
             Saldo = saldo;
             FormaDePagamento = formaDePagamento;
         }
-        private decimal Saldo { get; set; }
-        private string FormaDePagamento { get; set; }
+        public decimal Saldo { get; set; }
+        public string FormaDePagamento { get; set; }
 
         public void Pagar()
         {

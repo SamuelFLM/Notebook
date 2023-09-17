@@ -1,7 +1,4 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+
 using C.Models;
 using Nt.Models;
 
@@ -10,19 +7,16 @@ namespace Venda.Models
     public class Produto
     {
         public Produto() { }
-        public Produto(List<Notebook> produtos, List<Vendedor> vendedores, List<Cliente> clientes, List<Fornecedor> fornecedores)
-        {
-            Produtos = produtos;
-            Vendedores = vendedores;
-            Clientes = clientes;
-            Fornecedores = fornecedores;
-        }
-        private List<Notebook> Produtos { get; set; }
-        private List<Vendedor> Vendedores { get; set; }
-        private List<Cliente> Clientes { get; set; }
-        private List<Fornecedor> Fornecedores { get; set; }
+       
+        public List<Notebook> Notebooks = new List<Notebook>();
+        public List<Vendedor> Vendedores = new List<Vendedor>();
+        public List<Cliente> Clientes = new List<Cliente>();
+        public List<Fornecedor> Fornecedores = new List<Fornecedor>();
         private DateTime DataVenda = DateTime.Now;
 
-        
+        public void FinalizarCompra()
+        {
+
+        }
     }
 }

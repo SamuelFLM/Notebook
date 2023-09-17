@@ -14,9 +14,9 @@ namespace P.Models
             Numero = numero;
             Bairro = bairro;
         }
-        protected string Rua { get; set; }
-        protected int Numero { get; set; }
-        protected string Bairro { get; set; }
+        public string Rua { get; set; }
+        public int Numero { get; set; }
+        public string Bairro { get; set; }
 
         public void ExibirLogadouro()
         {

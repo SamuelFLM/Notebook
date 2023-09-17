@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace Venda.Models
 {
-    public abstract class Fornecedor
+    public class Fornecedor
     {
         public Fornecedor() { }
         public Fornecedor(string empresa, int quantidadeAnoGarantia)

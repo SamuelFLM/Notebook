@@ -13,3 +13,5 @@ C:\Users\Lazer\OneDrive\Área de Trabalho\Notebook\obj\Debug\net7.0\refint\Noteb
 C:\Users\Lazer\OneDrive\Área de Trabalho\Notebook\obj\Debug\net7.0\Notebook.pdb
 C:\Users\Lazer\OneDrive\Área de Trabalho\Notebook\obj\Debug\net7.0\Notebook.genruntimeconfig.cache
 C:\Users\Lazer\OneDrive\Área de Trabalho\Notebook\obj\Debug\net7.0\ref\Notebook.dll
+C:\Users\Lazer\OneDrive\Área de Trabalho\Notebook\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Users\Lazer\OneDrive\Área de Trabalho\Notebook\obj\Debug\net7.0\Notebook.csproj.CopyComplete

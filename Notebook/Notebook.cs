@@ -16,14 +16,14 @@ namespace Nt.Models
             Preco = preco;
             SistemaOperacional = sistemaOperacional;
         }
-        protected string Marca { get; set; }
-        protected string Fabricante { get; set; }
-        protected string Processador { get; set; }
-        protected int MemoriaHD { get; set; }
-        protected int MemoriaRam { get; set; }
-        protected string PlacaDeVideo { get; set; }
-        protected decimal Preco { get; set; }
-        protected string SistemaOperacional { get; set; }
+        public string Marca { get; set; }
+        public string Fabricante { get; set; }
+        public string Processador { get; set; }
+        public int MemoriaHD { get; set; }
+        public int MemoriaRam { get; set; }
+        public string PlacaDeVideo { get; set; }
+        public decimal Preco { get; set; }
+        public string SistemaOperacional { get; set; }
 
         public void Desligar()
         {

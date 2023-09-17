@@ -15,9 +15,9 @@ namespace P.Models
             Idade = idade;
             Telefone = telefone;
         }
-        protected string Nome { get; set; }
-        protected int Idade { get; set; }
-        protected int Telefone { get; set; }
+        public string Nome { get; set; }
+        public int Idade { get; set; }
+        public int Telefone { get; set; }
 
     }
 }
