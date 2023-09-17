@@ -1,2 +1,8 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using Nt.Models;
+
+Console.WriteLine("");
+
+Notebook notebook = new Notebook(sistemaOperacional: "Linux");
+
+notebook.InstalarSistemaOperacional();
+

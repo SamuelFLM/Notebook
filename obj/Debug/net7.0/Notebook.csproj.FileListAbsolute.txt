@@ -1,0 +1,15 @@
+C:\Users\Lazer\OneDrive\Área de Trabalho\Notebook\bin\Debug\net7.0\Notebook.exe
+C:\Users\Lazer\OneDrive\Área de Trabalho\Notebook\bin\Debug\net7.0\Notebook.deps.json
+C:\Users\Lazer\OneDrive\Área de Trabalho\Notebook\bin\Debug\net7.0\Notebook.runtimeconfig.json
+C:\Users\Lazer\OneDrive\Área de Trabalho\Notebook\bin\Debug\net7.0\Notebook.dll
+C:\Users\Lazer\OneDrive\Área de Trabalho\Notebook\bin\Debug\net7.0\Notebook.pdb
+C:\Users\Lazer\OneDrive\Área de Trabalho\Notebook\obj\Debug\net7.0\Notebook.csproj.AssemblyReference.cache
+C:\Users\Lazer\OneDrive\Área de Trabalho\Notebook\obj\Debug\net7.0\Notebook.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lazer\OneDrive\Área de Trabalho\Notebook\obj\Debug\net7.0\Notebook.AssemblyInfoInputs.cache
+C:\Users\Lazer\OneDrive\Área de Trabalho\Notebook\obj\Debug\net7.0\Notebook.AssemblyInfo.cs
+C:\Users\Lazer\OneDrive\Área de Trabalho\Notebook\obj\Debug\net7.0\Notebook.csproj.CoreCompileInputs.cache
+C:\Users\Lazer\OneDrive\Área de Trabalho\Notebook\obj\Debug\net7.0\Notebook.dll
+C:\Users\Lazer\OneDrive\Área de Trabalho\Notebook\obj\Debug\net7.0\refint\Notebook.dll
+C:\Users\Lazer\OneDrive\Área de Trabalho\Notebook\obj\Debug\net7.0\Notebook.pdb
+C:\Users\Lazer\OneDrive\Área de Trabalho\Notebook\obj\Debug\net7.0\Notebook.genruntimeconfig.cache
+C:\Users\Lazer\OneDrive\Área de Trabalho\Notebook\obj\Debug\net7.0\ref\Notebook.dll

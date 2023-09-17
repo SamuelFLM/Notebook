@@ -1,14 +1,12 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
-namespace Notebook
+
+namespace Nt.Models
 {
-    public abstract class Notebook : INotebook
+    public class Notebook : Sistema, INotebook
     {
         public Notebook() { }
-        public Notebook(string marca, string fabricante, string processador, int memoriaHd, int memoriaRam, string placaDeVideo, decimal preco)
+        public Notebook(string sistemaOperacional) : base(sistemaOperacional) { }
+        public Notebook(string marca, string fabricante, string processador, int memoriaHd, int memoriaRam, string placaDeVideo, decimal preco, string sistemaOperacional) : base(sistemaOperacional)
         {
             Marca = marca;
             Fabricante = fabricante;
