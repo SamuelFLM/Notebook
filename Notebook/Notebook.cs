@@ -7,12 +7,22 @@ namespace Notebook
 {
     public abstract class Notebook : INotebook
     {
-        public Notebook(){}
-        public Notebook(string marca){}
+        public Notebook() { }
+        public Notebook(string marca, string fabricante, string processador, int memoriaHd, int memoriaRam, string placaDeVideo, decimal preco)
+        {
+            Marca = marca;
+            Fabricante = fabricante;
+            Processador = processador;
+            MemoriaHD = memoriaHd;
+            MemoriaRam = memoriaRam;
+            PlacaDeVideo = placaDeVideo;
+            Preco = preco;
+        }
         protected string Marca { get; set; }
         protected string Fabricante { get; set; }
         protected string Processador { get; set; }
-        protected int Memoria { get; set; }
+        protected int MemoriaHD { get; set; }
+        protected int MemoriaRam { get; set; }
         protected string PlacaDeVideo { get; set; }
         protected decimal Preco { get; set; }
 
